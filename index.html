@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website - Saran k.v</title>
+    <link rel="stylesheet" href="312.css">
+    <script src="https://kit.fontawesome.com/425da26824.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo..png" class="logo" width="170px" height="160px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Budding Engineer</p>
+                <h1>Hi,I'm <span>Saran K V</span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----about----- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently a student at MCET, pursuing my education while aspiring to build a career as a data analyst. Check out my portfolio website to explore my academic journey and the projects that showcase my skills and passion for data analysis.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>            
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Data Analyst</span><br>SQL<br>Excel sheet<br>Microsoft Power BI<br>Python</li>
+                        <li><span>Core<br></span>
+                            Embedded Program<br>
+                            MATLAB</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>2021-2022</span><br>Food Quality System Using Arduino Uno</li>
+                        <li><span>2022-2023</span><br>Cell Phone Detector with Signal Jammer</li>
+                        <li><span>2023</span><br>Road Accident Analysis in Power BI</li>
+                        <li><span>2023</span><br>Cricket Data Analytics in Power BI</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSLC from Swamy Chidbhavananda Matric.Hr.Sec.School at 77.4%</li>
+                        <li><span>2018-2021</span><br>Diploma from Nachimuthu polytechnic college at 79.8%</li>
+                        <li><span>2021-2024</span><br>EEE Gradute at Dr.Mahalingam College of Engineering and technology at 81%</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------serivices-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Embedded Program</h2>
+                    <p>Embedded programming using MATLAB allows developers to design and implement real-time systems for embedded devices. MATLAB provides a versatile platform for modeling, simulation, and code generation, facilitating seamless integration of algorithms into embedded hardware. This enables efficient development and testing of embedded applications, ensuring robust performance in diverse environments.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Python</h2>
+                    <p>Python's Pandas library is a powerful tool for data analysis, offering data structures and functions to manipulate and analyze structured data efficiently. It enables tasks such as data cleaning, transformation, and statistical analysis, making it a valuable asset for data professionals in various domains like finance, science, and business.<p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data Visualization</h2>
+                    <p>Power BI and Tableau are leading data visualization tools that facilitate insightful data analysis. They offer intuitive interfaces for creating interactive, visually appealing dashboards and reports. These tools allow users to visualize data trends, patterns, and insights, enhancing data-driven decision-making for businesses across various industries.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <!------------------------portfolio-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/portfolio1.jpg">
+                    <div class="layer">
+                        <h3>Food Quality System Using Arduino UNO</h3>
+                        <p>This project is focuses on quality assurance of the food product based on the Odor produced by it with the help of electronic nose (E-Nose) strategy. The E-nose is the array of gas identifying sensor used to find the various aroma of the food sample produced during course of its decaying process .The quality of the food can be checked by sensing the aroma created by it using Arduino UNO programming and the quality of the food is displayed using LCD.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfolio2.jpg">
+                    <div class="layer">
+                        <h3>Road Accident Analysis</h3>
+                        <p>The Project in Power BI is to provide comprehensive, data-driven insights into road accidents, enabling stakeholders to make informed decisions for enhancing road safety, reducing accident rates, and improving traffic management through visualized data and analytics.</p>
+                        <a href="https://github.com/saran-15/road-accident-analysis-/tree/main"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfolio3.jpg">
+                    <div class="layer">
+                        <h3>Cricket Data Analytics</h3>
+                        <p>I undertook a cricket data analysis project employing Power BI for visualization and Pandas for web scraping. Leveraging these tools, I extracted and analyzed diverse cricket statistics, presenting insightful visualizations. The project highlights my proficiency in data analytics, showcasing a comprehensive exploration of cricket-related insights through innovative data visualization techniques.</p>
+                        <a href="https://github.com/saran-15/Cricket-data-analytics"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!------------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact Email : k.v.saran0066@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>Contact Number: 9688954674</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/saran-k-v-2123b1263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/__sarxn.__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/saran-15"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/resume.pdf"Download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text"  name="Name"  placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+          
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Saran K.V <i class="fa-solid fa-sparkles"></i>Python,SQL,Data Visualization</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        <script>
+  const scriptURL ='https://script.google.com/macros/s/AKfycbzgdEn-5Ejw-fvByhuTwf96h0KdbaymjN7yRujM3RyG39IqyyTKzE_JWekb-aUYp-N1/exec'
+  const form = document.froms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success !', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
